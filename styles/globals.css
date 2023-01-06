@@ -362,12 +362,13 @@ h1{
 
 }
 @media only screen and (max-width: 460px) {
-.smallIcons i{
-margin: auto;
-padding-left: 20px;
+.smallIcons i {
+
+margin:  auto;
+margin-top: 10px;
 
 
-
+ 
 }
 
 

@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import group from "../public/Group.svg"
 
 import { userContext, UserContextProvider } from "../components/UserContext";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
@@ -24,7 +25,7 @@ export default function Home() {
                     content="width=device-width, initial-scale=1"
                 />
 
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="../Group.svg" />
 
                 <script
                     src="https://kit.fontawesome.com/1beabbb46f.js"
@@ -34,11 +35,11 @@ export default function Home() {
             <div>
                 <UserContextProvider>
                     <Navbar />
-              
+
                     <Main />
                     <Icons />
-                    <Section2/>
-                    <Founders/>
+                    <Section2 />
+                    <Founders />
                 </UserContextProvider>
             </div>
         </>
