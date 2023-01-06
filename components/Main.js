@@ -12,12 +12,12 @@ function Main() {
             <div className="mainBoth flex justify-between align-middle   p-5">
                 <div className="mainLeft ">
                     <h1 className="heading text-4xl mt-[70px]">{heading}</h1>
-                    <h2 className="para w-[500px] text-xl my-[20px] ">
+                    <h5 className="para w-[500px]  my-[20px] ">
                         {paragraph1}
-                    </h2>
-                    <h2 className=" para para2 w-[500px] text-xl">
+                    </h5>
+                    <h5 className=" para para2 w-[500px] ">
                         {paragraph2}
-                    </h2>
+                    </h5>
                 </div>
                 <div className="mainRight   ">
                     <div className="bigIcon ">
