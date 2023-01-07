@@ -15,7 +15,7 @@ function Section2() {
             <div className="sec2encompass">
                 <div className="sec2HeaderAndPara  w-full text-center p-5 ">
                     <h1 className="sec2Header mb-[20px] ">{header}</h1>
-                    <h6 className="secondContent w-[900px] text-center justify-center m-auto mb-[60px]">
+                    <h6 className="secondContent w-[900px]  justify-center m-auto mb-[60px] text-justify">
                         {para}
                     </h6>
                 </div>
@@ -31,7 +31,7 @@ function Section2() {
                         <div className=" w-[600px]  mt-[10px] secondContent  ">
                             {" "}
                             <h1 className="mb-[20px]">{title1}</h1>
-                            <h6>{content1}</h6>
+                            <h6 className="text-justify">{content1}</h6>
                         </div>
                     </div>
                     {/* ------------------------------------------------ */}
@@ -40,7 +40,7 @@ function Section2() {
                         <div className="secondName secondContent  w-[600px]  mt-[10px]  ">
                             {" "}
                             <h1 className="mb-[20px]">{title2}</h1>
-                            <h6>{content2}</h6>
+                            <h6 className="text-justify">{content2}</h6>
                         </div>
                         <div className="secondImage">
                             {" "}
@@ -58,7 +58,7 @@ function Section2() {
                         <div className=" secondContent w-[600px]  mt-[10px]  ">
                             {" "}
                             <h1 className="mb-[20px]">{title3}</h1>
-                            <h6>{content3}</h6>
+                            <h6 className="text-justify">{content3}</h6>
                         </div>
                     </div>
                     {/* ------------------------------------------------ */}
