@@ -1,6 +1,12 @@
 import { useContext } from "react";
 import { userContext } from "../components/UserContext";
 
+import { BiDumbbell } from "react-icons/bi";
+import { HiCode } from "react-icons/hi";
+import { FaBrain } from "react-icons/fa";
+import { FiRepeat } from "react-icons/fi";
+
+
 import Image from "next/image";
 import beard from "../public/beard.jpg";
 
@@ -24,9 +30,9 @@ function Main() {
                         <Image src={beard} />
                     </div>
                     <div className="smallIcons relative ">
-                        <i class="fa-solid fa-code absolute top-[-60px] "></i>
-                        <i class="fa-solid fa-brain absolute top-[-30px] left-[120px]"></i>
-                        <i class="fa-solid fa-dumbbell absolute top-[-60px] left-[240px]"></i>
+                        <HiCode />
+                        <BiDumbbell className="secondicon mt-8" />
+                        <FaBrain />
                     </div>
                 </div>
             </div>

@@ -2,15 +2,24 @@ import { useContext } from "react";
 import { userContext } from "../components/UserContext";
 import { useState } from "react";
 import { useEffect } from "react";
+import { FaBeer } from "react-icons/fa";
+import { BiDumbbell } from "react-icons/bi";
+import { HiCode } from "react-icons/hi";
+import { FaBrain } from "react-icons/fa";
+import { FiRepeat } from "react-icons/fi";
+
+
+
 
 import Image from "next/image";
 import beard from "../public/beard.jpg";
+import dumbell from "../public/dumbbell.svg";
 
 function Icons() {
     const { icons } = useContext(userContext);
     const { title1, title2, title3, title4, application } = icons;
 
-    const [expiryTime, setExpiryTime] = useState("07 jan 2023 12:18:20");
+    const [expiryTime, setExpiryTime] = useState("10 jan 2023 12:18:20");
     const [countdownTime, setCountdownTime] = useState({
         countdownDays: "",
         countdownHours: "",
@@ -72,22 +81,23 @@ function Icons() {
                 <div className="section  justify-center flex-col align-self p-5">
                     <h4 className="text-2xl">{title1}</h4>
 
-                    <i class="fa-solid fa-code"></i>
+                    <HiCode className="dumbbell" />
                 </div>
 
                 <div className="section  justify-center flex-col align-self p-5">
                     <h4 className="text-2xl">{title2}</h4>
-                    <i class="fa-solid fa-dumbbell "></i>
+
+                    <BiDumbbell className="dumbbell" />
                 </div>
 
                 <div className="section  justify-center flex-col align-self p-5">
                     <h4 className="text-2xl">{title3}</h4>
-                    <i class="fa-solid fa-brain "></i>
+                    <FaBrain className="dumbbell" />
                 </div>
 
                 <div className="section  justify-center flex-col align-self p-5">
                     <h4 className="text-2xl">{title4}</h4>
-                    <i class="fa-solid fa-repeat"></i>
+                    <FiRepeat className="dumbbell" />
                 </div>
             </div>
             <div className="timer m-auto wx-[1400px] flex justify-center mt-[100px] text-2xl align-middle   ">
@@ -98,7 +108,7 @@ function Icons() {
 
                 <div className="flex flex-col mr-5 text-center dates ">
                     <span>Days</span>
-                    <h3>{countdownTime.countdownDays }:</h3>
+                    <h3>{countdownTime.countdownDays}:</h3>
                 </div>
 
                 <div className="flex flex-col mr-5 text-center dates">
