@@ -370,3 +370,13 @@ h1{
 }
 
 }
+@media only screen and (max-width: 320px) {
+
+.sec2encompass h6{
+    text-align: center;
+}
+.mainLeft h5{
+      text-align: center;
+}
+
+}
