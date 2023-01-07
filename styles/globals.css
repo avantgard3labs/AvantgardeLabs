@@ -38,6 +38,9 @@
     src: url("../font//ProximaNovaA-Regular.woff");
     font-weight: 400;
 }
+.sec2encompass h6{
+    text-align: justify;
+}
 
 h1{
     font-family: "Poppins";
@@ -101,11 +104,7 @@ margin: 10px auto;
     font-family: "Proxima";
         font-size: 20px;
 }
-.rightNav{
 
-   
-
-}
 .navButton:hover{
 background-color: white;
 color: black;
