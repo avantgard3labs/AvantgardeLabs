@@ -12,7 +12,12 @@ import Section2 from "../components/Section2";
 import Founders from "../components/Founders";
 
 export default function Home() {
-
+    useEffect(() => {
+        const { pathname } = Router;
+        if (pathname === "/") {
+            Router.push("/dev");
+        }
+    });
     return (
         <>
             <Head>
