@@ -37,6 +37,12 @@ function Founders() {
                     <h6 className="mt-2">{works3}</h6>
                 </div>
             </div>
+            <div className="flex justify-center m-auto mt-10">
+                <a href="mailto:admin@avantgardelabs.io">
+                    {" "}
+                    <button className="touch mb-10">Get in touch with us</button>
+                </a>
+            </div>
         </div>
     );
 }

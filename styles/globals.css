@@ -116,17 +116,30 @@ color: black;
     right: 40px;
     padding: 15px  20px;
 transition: 0.2s ease;
-
-
-    font-style: normal;
+font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
-
-
-    text-align: right;
+ text-align: right;
     border: 2px solid #ffffff;
     border-radius: 15px;
+}
+.touch{
+        font-family: "Poppins";
+padding: 15px  20px;
+transition: 0.2s ease;
+font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+ text-align: right;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+}
+.touch:hover{
+background-color: white;
+color: black;
+
 }
 .timer {
     font-family: "Poppins";
