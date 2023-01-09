@@ -29,7 +29,7 @@ export default function Home() {
 
                 <script
                     src="https://kit.fontawesome.com/1beabbb46f.js"
-                    crossorigin="anonymous"
+                    crossOrigin="anonymous"
                 ></script>
             </Head>
             <div>
