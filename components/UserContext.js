@@ -38,12 +38,12 @@ export const UserContextProvider = ({ children }) => {
         founders: {
             heading:
                 "Created by world class web3 & opensource  builders and entrepreneurs",
-            name1: "Mike",
-            name2: "Jake",
-            name3: "Trevor",
-            role1: "Founder & CEO (YC S20)",
-            role2: "Co-founder & CTO",
-            role3: "Co-founder & CTO",
+            name1: "Wave",
+            name2: "Tetranode",
+            name3: "Satoshi",
+            role1: "Co-Founder",
+            role2: "Founder",
+            role3: "Co-Founder",
             works1: "Ex- Google, Meta",
             works2: "Ex-Snapchat",
             works3: "Ex-Amazon,Instagram",
