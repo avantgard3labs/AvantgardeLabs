@@ -21,14 +21,11 @@ function Navbar() {
                     <h3 className="logoName lg:ml-5 mb-5">{logoName}</h3>
                 </div>
                 <div className="rightNav flex align-middle mb-5  ">
-                 
-                        <button
-                  
-                            className=" navButton mx-[60px] border  px-9 "
-                        >
+                    <a href="https://www.typeform.com/private-typeform/?utm_source=typeform.com-22371886-free&utm_medium=typeform&utm_content=typeform-private&utm_campaign=c5P6ayDf">
+                        <button className=" navButton mx-[60px] border  px-9 ">
                             {navButton}
                         </button>
-            
+                    </a>
                 </div>
             </div>
         </div>

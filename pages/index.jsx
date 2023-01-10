@@ -21,7 +21,7 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Dev House</title>
+                <title>Avantgarde Labs</title>
 
                 <meta
                     name="description"
