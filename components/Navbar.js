@@ -5,7 +5,6 @@ import Image from "next/image";
 import logos from "../public/Group.svg";
 
 function Navbar() {
-
     const { navbar } = useContext(userContext);
     const { logoName, navButton, logo } = navbar;
     return (

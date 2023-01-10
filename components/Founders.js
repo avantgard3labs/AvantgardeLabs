@@ -12,7 +12,18 @@ import satoshi from "../public/satoshi.png";
 
 function Founders() {
     const { founders } = useContext(userContext);
-    const { heading,name1,name2,name3,role1,role2,role3,works1,works2,works3 } = founders;
+    const {
+        heading,
+        name1,
+        name2,
+        name3,
+        role1,
+        role2,
+        role3,
+        works1,
+        works2,
+        works3,
+    } = founders;
     return (
         <div className="foundersContainer w-[1400px] m-auto sm:p-5   ">
             <div className="text-center">
