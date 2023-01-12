@@ -19,7 +19,7 @@ function Icons() {
     const { icons } = useContext(userContext);
     const { title1, title2, title3, title4, application } = icons;
 
-    const [expiryTime, setExpiryTime] = useState("10 jan 2023 12:18:20");
+    const [expiryTime, setExpiryTime] = useState("20 jan 2023 12:00:00");
     const [countdownTime, setCountdownTime] = useState({
         countdownDays: "",
         countdownHours: "",
