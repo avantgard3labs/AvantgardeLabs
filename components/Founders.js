@@ -33,7 +33,7 @@ function Founders() {
                 <div className="founderCard mt-10 text-center ">
                     <a href="https://twitter.com/0xwave?s=21&t=kbTsrN-Bc85BlcLSPOHorw">
                         <Image
-                            className="w-[300px] hover:scale-105 ease-in duration-300 hover:mb-10 rounded-2xl "
+                            className="w-[300px] hover:scale-105 ease-in duration-300  rounded-2xl "
                             src={wave}
                         ></Image>
                         <h1 className="mt-5">{name1}</h1>
@@ -45,7 +45,7 @@ function Founders() {
                 <div className="founderCard mt-10 text-center">
                     <a href="https://twitter.com/tetranode?s=21&t=kbTsrN-Bc85BlcLSPOHorw">
                         <Image
-                            className="w-[300px] hover:scale-105 ease-in duration-300 hover:mb-10  rounded-2xl "
+                            className="w-[300px] hover:scale-105 ease-in duration-300  rounded-2xl "
                             src={tetranode}
                         ></Image>
                         <h1 className="mt-5">{name2}</h1>
@@ -57,7 +57,7 @@ function Founders() {
                 <div className="founderCard mt-10 text-center">
                     <a href="https://twitter.com/devsatoshi?s=21&t=kbTsrN-Bc85BlcLSPOHorw">
                         <Image
-                            className="w-[300px] hover:scale-105 ease-in duration-300 hover:mb-10 rounded-2xl"
+                            className="w-[300px] hover:scale-105 ease-in duration-300  rounded-2xl"
                             src={satoshi}
                         ></Image>
                         <h1 className="mt-5">{name3}</h1>
