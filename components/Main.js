@@ -12,7 +12,7 @@ import beard from "../public/beard.jpg";
 
 function Main() {
     const { main } = useContext(userContext);
-    const { heading, paragraph1, paragraph2 } = main;
+    const { heading, paragraph1, paragraph2,paragraph3 } = main;
     return (
         <div className="mainContainer w-[1400px] m-auto sm:p-5  ">
             <div className="mainBoth flex justify-between align-middle   p-5">
@@ -21,8 +21,11 @@ function Main() {
                     <h5 className="para w-[500px]  my-[20px] text-justify">
                         {paragraph1}
                     </h5>
-                    <h5 className=" para para2 w-[500px] text-justify ">
+                    <h5 className=" para para2 w-[500px] text-justify mb-5 ">
                         {paragraph2}
+                    </h5>
+                    <h5 className=" para para2 w-[500px] text-justify ">
+                        {paragraph3}
                     </h5>
                 </div>
                 <div className="mainRight   ">

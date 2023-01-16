@@ -41,6 +41,29 @@
 .sec2encompass h6{
     text-align: justify;
 }
+.valueencompass h4{
+     font-family: "Proxima";
+    font-weight: 800;
+    font-size: 22px;
+}
+.valueencompass {
+display: flex;
+
+}
+.valueleft{
+border: 3px solid white;
+padding: 20px;
+flex: 3;
+margin-right: 20px;
+border-radius: 10px;
+}
+.valueright{
+border: 3px solid white;
+padding: 20px;
+flex: 2;
+border-radius: 10px;
+}
+
 
 h1{
     font-family: "Poppins";
@@ -228,6 +251,48 @@ margin-top: -60px;
   font-size: 20px;
 
     }
+      .valueencompass{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+            
+    }
+    .valueleft{
+        margin-bottom: 20px;
+    }
+    .valueContainer{
+    width: 90%;
+        text-align: left;
+    }
+    .valueleft h6 {
+        text-align: left;
+          font-size: 12px;
+    }
+     .valueright h6 {
+        text-align: left;
+        font-size: 12px;
+    }
+        .valueright h1 {
+        text-align: left;
+        font-size: 16px;
+    }
+           .valueright h4 {
+        text-align: left;
+        font-size: 14px;
+    }
+               .valueleft h4 {
+        text-align: left;
+        font-size: 14px;
+    }
+         .valueleft h1 {
+        text-align: left;
+        font-size: 16px;
+    }
+    .touch{
+        text-align: center;
+    }
+
+
 }
 
 @media only screen and (max-width: 1400px) {
@@ -311,6 +376,35 @@ order: 2;
     justify-content: center;
     align-items: center;
 }
+    .valueencompass{
+        display: flex;
+        flex-direction: column;
+    
+
+
+         
+    }
+    .valueleft{
+        margin-bottom: 20px;
+      width: 100%;
+    }
+    .valueright{
+      width: 100%;
+      margin-bottom: 40px;
+    }
+    .valueContainer{
+       width: 90%;
+        text-align: left;
+            justify-content: center;
+            display: flex;
+            margin: 0 auto;
+    }
+    .valueleft h6,h1 {
+        text-align: left;
+    }
+     .valueright h6,h1 {
+        text-align: left;
+    }
 }
 @media only screen and (max-width: 760px) {
     .navButton {

@@ -10,6 +10,7 @@ import Main from "../components/Main";
 import Icons from "../components/Icons";
 import Section2 from "../components/Section2";
 import Founders from "../components/Founders";
+import Values from "../components/Values";
 
 export default function Home() {
     return (
@@ -40,6 +41,7 @@ export default function Home() {
                     <Main />
                     <Icons />
                     <Section2 />
+                    <Values/>
                     <Founders />
                 </UserContextProvider>
             </div>
