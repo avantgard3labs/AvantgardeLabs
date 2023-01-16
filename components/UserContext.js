@@ -71,7 +71,7 @@ export const UserContextProvider = ({ children }) => {
             rightContent:
                 "Developer DAO exists to accelerate the education and impact of a new wave of web3 builders",
             rightTitle: "Goals",
-            rightContent1: "1. Onboard, Educate & Support Webd3 Developers",
+            rightContent1: "1. Onboard, Educate & Support Web3 Developers",
             rightContent2: "2. Foster & Build Web3 Tools & Public Goods",
             wiki: "",
         },
