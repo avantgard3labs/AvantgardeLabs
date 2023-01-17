@@ -41,7 +41,7 @@ export default function Home() {
                     <Main />
                     <Icons />
                     <Section2 />
-                    <Values/>
+                   
                     <Founders />
                 </UserContextProvider>
             </div>

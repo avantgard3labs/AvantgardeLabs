@@ -77,7 +77,23 @@ function Section2() {
                         <div className="secondName secondContent  w-[600px]  mt-[10px]  ">
                             {" "}
                             <h1 className="mb-[20px]">{title4}</h1>
-                            <h6 className="text-justify">{content4}</h6>
+                            <h6 className="text-justify">
+                                Learn from the real experts in both web3 and
+                                web2 who have built a ton of opensource projects
+                                and crypto products like Gogocoin, 0xPhantomDao,
+                                Swix Dao, Bankless Dao, Mushrohms NFT and{" "}
+                                <a
+                                    className="text-sky-500"
+                                    href="https://drive.google.com/file/d/1jVdlpi5JbVj1UkzILpiXs1TXz2bGxkdy/view"
+                                >
+                                
+                                    more
+                                </a>.
+                                We take you from react, redux, nextJS, ERC720
+                                contract, ERC721 all the way to advanced gas
+                                optimisations and tricks/tips to create
+                                efficient code. Mastering from Web2 to Web3.
+                            </h6>
                         </div>
                         <div className="secondImage">
                             {" "}
