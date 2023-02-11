@@ -1,0 +1,496 @@
+.nav-item {
+    line-height: 40px;
+}
+.nav-item:hover {
+    color: #c0befb;
+    transition-duration: 200ms;
+}
+
+
+
+
+@font-face {
+    font-family: "Avenir";
+    src: url("..//../font/Avenir-Heavy.woff");
+    font-weight: 900;
+}
+@font-face {
+    font-family: "Avenir";
+    src: url("../../font/Avenir-Light.woff");
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("../../font/Poppins-Bold.woff");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("../../font/Poppins-Regular.woff");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("../../font/Poppins-Light.woff");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Proxima";
+    src: url("../../font//ProximaNovaA-Bold.woff");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Proxima";
+    src: url("../../font//ProximaNovaA-Regular.woff");
+    font-weight: 400;
+}
+.sec2encompass h6{
+    text-align: justify;
+}
+.valueencompass h4{
+     font-family: "Proxima";
+    font-weight: 800;
+    font-size: 22px;
+}
+.valueencompass {
+display: flex;
+
+}
+.valueleft{
+border: 3px solid white;
+padding: 20px;
+flex: 3;
+margin-right: 20px;
+border-radius: 10px;
+}
+.valueright{
+border: 3px solid white;
+padding: 20px;
+flex: 2;
+border-radius: 10px;
+}
+
+
+h1{
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 26px;
+}
+h6{
+        font-family: "Proxima";
+    font-weight: 400;
+    font-size: 20px;
+}
+
+ body {
+    color: white;
+    background-color: red;
+
+    
+}
+.sec2AllComponent{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.sec2Component{
+    display: flex;
+    width: 100%;
+
+    justify-content: space-evenly;
+}
+
+.applications h3{
+    font-family: "Avenir";
+    font-weight: 800;
+}
+
+.leftnav {
+    display: flex;
+    align-items: center;
+
+}
+
+.dumbbell{
+       font-size: 40px;
+    justify-content: center;
+    display: flex;
+
+margin: 10px auto;
+}
+
+
+.logoName {
+    font-family: "Avenir";
+    font-weight: 900;
+    font-size: 24px;
+}
+.heading {
+    font-family: "Poppins";
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+.para {
+    font-family: "Proxima";
+        font-size: 20px;
+}
+
+.navButton:hover{
+background-color: white;
+color: black;
+
+}
+.navButton {
+    font-family: "Poppins";
+    position: fixed;
+    right: 40px;
+    padding: 15px  20px;
+transition: 0.2s ease;
+font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+ text-align: right;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+}
+.touch{
+        font-family: "Poppins";
+padding: 15px  20px;
+transition: 0.2s ease;
+font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+ text-align: right;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+}
+.touch:hover{
+background-color: white;
+color: black;
+
+}
+.timer {
+    font-family: "Poppins";
+    font-weight: 200;
+}
+
+.section {
+       font-weight: 800;
+     
+       font-family: "Avenir";
+}
+.dates span{
+    font-size: 18px;
+    font-weight: 200;
+    color: #d0d0d0;
+}
+.smallIcons{
+    display: flex;
+margin-top: -60px;
+    justify-content: center;
+    gap: 5rem;
+  font-size: 40px;
+}
+@media only screen and (max-width: 640px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+       
+        align-items: center;
+     
+        width: 100%;
+    }    .mainRight{
+       order: 1;
+    }
+    .mainLeft{
+        order: 2;
+       
+    }
+    .leftnav {
+        margin-bottom: 20px;
+
+    }
+    .navButton {
+        padding: 20px;
+        margin: 0;
+        position: relative;
+
+    }
+    .mainBoth {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .heading {
+        font-size: 16px;
+   margin-top: 40px;
+        text-align: center;
+    }
+    .para {
+        width: 100%;
+        font-size: 12px;
+    }
+    .mainContainer {
+        width: 80%;
+    }
+    .bigIcon {
+        width: 100%;
+        margin-left: 0px;
+       
+        
+    }
+
+    .applications{
+        display: none;
+    }
+    .mainRight{
+        margin-top: -120px;
+      
+    
+      
+    }
+    .smallIcons  {
+     gap: 5rem;
+  font-size: 20px;
+
+    }
+      .valueencompass{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+            
+    }
+    .valueleft{
+        margin-bottom: 20px;
+    }
+    .valueContainer{
+    width: 90%;
+        text-align: left;
+    }
+    .valueleft h6 {
+        text-align: left;
+          font-size: 12px;
+    }
+     .valueright h6 {
+        text-align: left;
+        font-size: 12px;
+    }
+        .valueright h1 {
+        text-align: left;
+        font-size: 16px;
+    }
+           .valueright h4 {
+        text-align: left;
+        font-size: 14px;
+    }
+               .valueleft h4 {
+        text-align: left;
+        font-size: 14px;
+    }
+         .valueleft h1 {
+        text-align: left;
+        font-size: 16px;
+    }
+    .touch{
+        text-align: center;
+    }
+
+
+}
+
+@media only screen and (max-width: 1400px) {
+    .mainBoth {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+    }
+    .para {
+        width: 100%;
+    }
+    .mainContainer {
+        width: 80%;
+    }
+    .bigIcon {
+        margin-top: 60px;
+    }
+    .smallIcons i {
+        font-size: 20px;
+        margin-left: 40px;
+    }
+    .timer {
+        text-align: center;
+        width: 80%;
+    }
+    .iconsControl {
+        display: flex;
+        margin-top: -50px;
+        justify-content: center;
+    }
+    .iconsContainer {
+        width: 80%;
+    }
+    .applications h3{
+        margin-top: 0;
+    }
+    .navButton{
+        position: static;
+    }
+    .sec2Component{
+      
+        display: flex;
+ 
+        justify-content: center;
+       align-items: center;
+        flex-direction: column;
+    }
+    .sec2AllComponent{
+       width: 80%;
+       margin: 0 auto;
+    }
+    .section2Container{
+        width: 80%;
+    }
+h1{
+    text-align: center;
+}
+h6{
+    text-align: center;
+}
+.secondName{
+order: 2;
+}
+.secondImage{
+    order: 1;
+     margin-bottom: 40px;
+}
+.firstImage{
+    margin-bottom: 40px;
+}
+.secondContent{
+    width: 80%;
+}
+.foundersContainer{
+    width: 80%;
+}
+.founderAllCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    .valueencompass{
+        display: flex;
+        flex-direction: column;
+    
+
+
+         
+    }
+    .valueleft{
+        margin-bottom: 20px;
+      width: 100%;
+    }
+    .valueright{
+      width: 100%;
+      margin-bottom: 40px;
+    }
+    .valueContainer{
+       width: 90%;
+        text-align: left;
+            justify-content: center;
+            display: flex;
+            margin: 0 auto;
+    }
+    .valueleft h6,h1 {
+        text-align: left;
+    }
+     .valueright h6,h1 {
+        text-align: left;
+    }
+}
+@media only screen and (max-width: 760px) {
+    .navButton {
+        text-align: center;
+    }
+
+    .smallIcons i {
+        margin-right: 40px;
+    }
+       .section2Container{
+        width: 90%;
+   
+       
+    } h6{
+    text-align: center;
+     font-size: 16px;
+}
+ h5{
+    text-align: center;
+     font-size: 16px;
+}
+h1{
+    text-align: center;
+    font-size: 20px;
+}
+.heading {
+    font-size: 20px;
+}
+.para{
+         font-size: 16px;
+}
+
+.secondContent{
+    width: 80%;
+}
+.foundersContainer{
+    width: 80%;
+}
+.founderAllCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.iconsControl {
+
+
+
+ justify-content: center;
+}
+.iconsControl i{
+    font-size: 20px;
+}
+.iconsControl h4{
+    font-size: 20px;
+}
+.iconsContainer{
+    width: 100%;
+}
+.iconsControl{
+  
+    flex-wrap: wrap;
+}
+.section{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+@media only screen and (max-width: 320px) {
+
+.sec2encompass h6{
+    text-align: center;
+}
+.mainLeft h5{
+      text-align: center;
+}
+
+}
